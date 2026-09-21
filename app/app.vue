@@ -46,12 +46,12 @@ useSeoMeta({
       <NuxtPage />
     </UMain>
 
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
+    <USeparator icon="griddy-icons:microwave" />
 
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+          By <a href="https://bsky.app/profile/phylan.website" target="_blank">@phylan</a>
         </p>
       </template>
 

@@ -14,7 +14,7 @@
   const router = useRouter()
 
   const onFrameClick = (result, frameTimestamp) => {
-    router.push(`/s${result.season}e${result.episode}/caption/${result.index}?frameTimestamp=${frameTimestamp}`)
+    router.push(`/s${result.season}e${result.episode}?captionIndex=${result.index}&frameTimestamp=${frameTimestamp}`)
   }
 
   const onQuery = async () => {
