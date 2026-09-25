@@ -22,7 +22,7 @@
       results.value = []
     }
 
-    if(query.value.length > 2) {
+    if(query.value?.length > 2) {
       await searchCaptions(query.value)
     }
   }
